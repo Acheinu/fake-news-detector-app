@@ -1,0 +1,16 @@
+streamlit
+joblib
+spacy
+pandas
+scikit-learn
+numpy
+
+# You might need specific spaCy model, add it here if needed, e.g.,
+# https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
+# You'll also need to ensure spaCy downloads the model in the app.py
+# Or include the model files in your repo (more complex)
+# A common way is to add `en_core_web_sm` to requirements and run
+# `python -m spacy download en_core_web_sm` in a post-install script if platform supports it,
+# or handle the download within app.py if the model isn't found.
+# For simplicity, we'll assume the basic libraries are sufficient for now,
+# and you handle spaCy model loading potentially with a check/download in app.py if necessary.
